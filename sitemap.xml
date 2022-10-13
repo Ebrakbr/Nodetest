@@ -3,109 +3,109 @@
 <url>
               <loc>https://roadmap.sh/frontend</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.609Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.703Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/backend</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.617Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.711Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/devops</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.621Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.715Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/react</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.621Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.719Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/angular</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.625Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.723Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/vue</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.629Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.723Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/javascript</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.633Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.731Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/android</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.633Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.731Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/nodejs</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.637Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.735Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/python</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.637Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.735Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/golang</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.641Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.739Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/java</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.641Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.739Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/design-system</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.645Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.743Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/postgresql-dba</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.645Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.743Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/blockchain</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.649Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.751Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/qa</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.653Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.755Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/software-architect</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.657Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.759Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/software-design-architecture</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.657Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.759Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
@@ -291,45 +291,45 @@
 <url>
               <loc>https://roadmap.sh/about</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.763Z</lastmod>
               <priority>0.8</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/guides</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.763Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.763Z</lastmod>
               <priority>1.0</priority>
           </url>
 
 <url>
               <loc>https://roadmap.sh/roadmaps</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.763Z</lastmod>
               <priority>1.0</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/signup</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.767Z</lastmod>
               <priority>0.9</priority>
           </url>
 <url>
               <loc>https://roadmap.sh/thanks</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.767Z</lastmod>
               <priority>0.5</priority>
           </url>
 
 <url>
               <loc>https://roadmap.sh/watch</loc>
               <changefreq>monthly</changefreq>
-              <lastmod>2022-10-13T18:56:15.665Z</lastmod>
+              <lastmod>2022-10-13T18:56:00.767Z</lastmod>
               <priority>1.0</priority>
           </url>
 </urlset>
