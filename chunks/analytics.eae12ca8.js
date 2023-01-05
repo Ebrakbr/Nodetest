@@ -1,0 +1,1 @@
+window.setTimeout((()=>{const e=document.querySelector("#sponsor-ad");!e||(e.classList.remove("hidden"),e.classList.add("flex"))}),500),window.fireEvent=e=>{const{action:n,category:t,label:o,value:a}=e;window.gtag?window.gtag("event",n,{event_category:t,event_label:o,value:a}):console.warn("Missing GTAG - Analytics disabled")};
