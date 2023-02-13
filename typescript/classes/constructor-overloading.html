@@ -3,7 +3,7 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/dcf0f94af95235ca71d0665dc373f0bbae39c125 name=commit>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/5c1d803892c34f7d4fc3d9bb7e061503cc2a4310 name=commit>
     <title>Constructor Overloading - roadmap.sh</title>
     <meta content="Free resources to learn Constructor Overloading in TypeScript. Everything you need to know about Constructor Overloading and how it realtes to TypeScript." name=description>
     <meta content="Kamran Ahmed" name=author>
@@ -153,23 +153,16 @@
     <div class="container pb-16 prose prose-h1:mb-4 prose-h2:mb-3 prose-h2:mt-0 prose-p:mt-0">
       <main id=main-content>
         <h1 id=constructor-overloading>Constructor Overloading</h1>
-<p>In TypeScript, you can achieve constructor overloading by using multiple constructors with different parameter lists in a single class. When you create an instance of the class, the constructor with the matching parameter list is called. Here’s an example:</p>
-<pre class=astro-code is:raw="" style=background-color:#282a36;overflow-x:auto><code><span class=line><span style=color:#ff79c6>class</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>MyClass</span><span style=color:#f8f8f2> {</span></span>
-<span class=line><span style=color:#f8f8f2>  property1</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>number</span><span style=color:#f8f8f2>;</span></span>
-<span class=line><span style=color:#f8f8f2>  property2</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>string</span><span style=color:#f8f8f2>;</span></span>
-<span class=line></span>
-<span class=line><span style=color:#f8f8f2>  </span><span style=color:#ff79c6>constructor</span><span style=color:#f8f8f2>(</span><span style=color:#ffb86c>property1</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>number</span><span style=color:#f8f8f2>) {</span></span>
-<span class=line><span style=color:#f8f8f2>    </span><span style=color:#bd93f9>this</span><span style=color:#f8f8f2>.property1 </span><span style=color:#ff79c6>=</span><span style=color:#f8f8f2> property1;</span></span>
-<span class=line><span style=color:#f8f8f2>  }</span></span>
-<span class=line></span>
-<span class=line><span style=color:#f8f8f2>  </span><span style=color:#ff79c6>constructor</span><span style=color:#f8f8f2>(</span><span style=color:#ffb86c>property1</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>number</span><span style=color:#f8f8f2>, </span><span style=color:#ffb86c>property2</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>string</span><span style=color:#f8f8f2>) {</span></span>
-<span class=line><span style=color:#f8f8f2>    </span><span style=color:#bd93f9>this</span><span style=color:#f8f8f2>.property1 </span><span style=color:#ff79c6>=</span><span style=color:#f8f8f2> property1;</span></span>
-<span class=line><span style=color:#f8f8f2>    </span><span style=color:#bd93f9>this</span><span style=color:#f8f8f2>.property2 </span><span style=color:#ff79c6>=</span><span style=color:#f8f8f2> property2;</span></span>
+<p>In TypeScript, you can achieve constructor overloading by using multiple constructor definitions with different parameter lists in a single class. Given below is the example where we have multiple definitions for the constructor:</p>
+<pre class=astro-code is:raw="" style=background-color:#282a36;overflow-x:auto><code><span class=line><span style=color:#ff79c6>class</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>Point</span><span style=color:#f8f8f2> {</span></span>
+<span class=line><span style=color:#f8f8f2>  </span><span style=color:#6272a4>// Overloads</span></span>
+<span class=line><span style=color:#f8f8f2>  </span><span style=color:#ff79c6>constructor</span><span style=color:#f8f8f2>(</span><span style=color:#ffb86c>x</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>number</span><span style=color:#f8f8f2>, </span><span style=color:#ffb86c>y</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>string</span><span style=color:#f8f8f2>);</span></span>
+<span class=line><span style=color:#f8f8f2>  </span><span style=color:#ff79c6>constructor</span><span style=color:#f8f8f2>(</span><span style=color:#ffb86c>s</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>string</span><span style=color:#f8f8f2>);</span></span>
+<span class=line><span style=color:#f8f8f2>  </span><span style=color:#ff79c6>constructor</span><span style=color:#f8f8f2>(</span><span style=color:#ffb86c>xs</span><span style=color:#ff79c6>:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>any</span><span style=color:#f8f8f2>, </span><span style=color:#ffb86c>y</span><span style=color:#ff79c6>?:</span><span style=color:#f8f8f2> </span><span style=color:#8be9fd>any</span><span style=color:#f8f8f2>) {</span></span>
+<span class=line><span style=color:#f8f8f2>    </span><span style=color:#6272a4>// TBD</span></span>
 <span class=line><span style=color:#f8f8f2>  }</span></span>
 <span class=line><span style=color:#f8f8f2>}</span></span></code></pre>
-<p>In this example, we have two constructors with different parameter lists: constructor(property1: number) and constructor(property1: number, property2: string). When you create an instance of the class, the constructor with the matching parameter list is called:</p>
-<pre class=astro-code is:raw="" style=background-color:#282a36;overflow-x:auto><code><span class=line><span style=color:#ff79c6>let</span><span style=color:#f8f8f2> myInstance1 </span><span style=color:#ff79c6>=</span><span style=color:#f8f8f2> </span><span style=color:#ff79c6;font-style:italic>new</span><span style=color:#f8f8f2> </span><span style=color:#50fa7b>MyClass</span><span style=color:#f8f8f2>(</span><span style=color:#bd93f9>10</span><span style=color:#f8f8f2>);</span></span>
-<span class=line><span style=color:#ff79c6>let</span><span style=color:#f8f8f2> myInstance2 </span><span style=color:#ff79c6>=</span><span style=color:#f8f8f2> </span><span style=color:#ff79c6;font-style:italic>new</span><span style=color:#f8f8f2> </span><span style=color:#50fa7b>MyClass</span><span style=color:#f8f8f2>(</span><span style=color:#bd93f9>10</span><span style=color:#f8f8f2>, </span><span style=color:#e9f284>"</span><span style=color:#f1fa8c>Hello</span><span style=color:#e9f284>"</span><span style=color:#f8f8f2>);</span></span></code></pre>
+<p>Note that, similar to function overloading, we only have one implementation of the consructor and it’s the only the signature that is overloaded.</p>
 <p>Learn more from the following resources:</p>
 <ul>
 <li><a href=https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors target=_blank rel=nofollow>Constructors - TypeScript</a></li>
