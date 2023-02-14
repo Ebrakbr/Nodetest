@@ -3,7 +3,7 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/5c1d803892c34f7d4fc3d9bb7e061503cc2a4310 name=commit>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/8200993af4300c815878d5d257d5ab7f6af72004 name=commit>
     <title>Signup - roadmap.sh</title>
     <meta content="Register yourself to receive occasional emails about new roadmaps, updates, guides and videos" name=description>
     <meta content="Kamran Ahmed" name=author>
@@ -125,16 +125,16 @@
       <div class="mb-2 sm:mb-5 sm:text-center text-left">
         <h1 class="mb-2 font-semibold sm:mb-4 sm:text-5xl text-3xl">Signup</h1>
         <p class="hidden sm:block text-gray-600 text-md">
-          Register yourself to receive occasional emails about new roadmaps,
-          updates, guides and videos
+          Register yourself to receive occasional emails about new roadmaps, updates, guides and videos
         </p>
         <p class="text-sm text-gray-600 block sm:hidden">
-          Register yourself for occasional updates about roadmaps, guides and
-          videos.
+          Register yourself for occasional updates about roadmaps, guides and videos.
         </p>
       </div>
 
       <form accept-charset=utf-8 action=https://newsletter.roadmap.sh/subscribe captcha-form class=w-full method=POST>
+        <input name=gdpr type=hidden value=true>
+
         <input name=email type=email class="block border-2 mb-2 mt-1 px-3 py-2 rounded-md sm:px-3.5 sm:py-3 text-md w-full" autofocus id=email placeholder="Enter your email" required>
 
         <div class="mb-2 recaptcha-field"></div>
