@@ -3,9 +3,9 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/7a4c077a9091ddad6fd3e8c6c697cb306fd5a31b name=commit>
-    <title>Use standard authentication - roadmap.sh</title>
-    <meta content="Free resources to learn Use standard authentication in API Security. Everything you need to know about Use standard authentication and how it realtes to API Security." name=description>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/5e75026424cfd7038c472ccc70fecb0d070870b1 name=commit>
+    <title>Avoid Basic Authentication - roadmap.sh</title>
+    <meta content="Free resources to learn Avoid Basic Authentication in API Security. Everything you need to know about Avoid Basic Authentication and how it realtes to API Security." name=description>
     <meta content="Kamran Ahmed" name=author>
     <meta content="roadmap, developer roadmaps, developer roadmap, how to become a developer, frontend developer roadmap, frontend developer roadmap 2023, backend developer roadmap, backend developer roadmap 2023, sre roadmap, sre roadmap 2023, devops roadmap, devops roadmap 2023, android developer roadmap, android developer roadmap 2023, dba roadmap, dba roadmap 2023, blockchain developer roadmap, blockchain developer roadmap 2023, qa roadmap, qa roadmap 2023, qa engineer roadmap, qa engineer roadmap 2023, software architect roadmap, software architect roadmap 2023, asp.net core developer roadmap, asp.net core developer roadmap 2023, react developer roadmap, react developer roadmap 2023, angular developer roadmap, angular developer roadmap 2023, vue developer roadmap, vue developer roadmap 2023, node.js developer roadmap, node.js developer roadmap 2023, javascript developer roadmap, javascript developer roadmap 2023, python developer roadmap, python developer roadmap 2023, go developer roadmap, go developer roadmap 2023, java developer roadmap, java developer roadmap 2023, design system roadmap, design system roadmap 2023, software design roadmap, software design roadmap 2023, graphql roadmap, graphql roadmap 2023" name=keywords>
     
@@ -21,8 +21,8 @@
     <meta content=https://roadmap.sh/images/og-img.png property=og:image>
     <meta content=roadmap.sh property=og:image:alt>
     <meta content=roadmap.sh property=og:site_name>
-    <meta content="Use standard authentication - roadmap.sh" property=og:title>
-    <meta content="Free resources to learn Use standard authentication in API Security. Everything you need to know about Use standard authentication and how it realtes to API Security." property=og:description>
+    <meta content="Avoid Basic Authentication - roadmap.sh" property=og:title>
+    <meta content="Free resources to learn Avoid Basic Authentication in API Security. Everything you need to know about Avoid Basic Authentication and how it realtes to API Security." property=og:description>
     <meta content=website property=og:type>
     <meta content=https://roadmap.sh/best-practices/api-security/use-standard-authentication property=og:url>
 
@@ -127,7 +127,27 @@
     <div class=bg-gray-50>
     <div class="container prose prose-h1:mb-4 prose-h2:mb-3 prose-h2:mt-0 prose-p:mt-0 py-16">
       <main id=main-content>
-        <h1 id=use-standard-authentication>Use standard authentication</h1>
+        <h1 id=avoid-basic-authentication>Avoid Basic Authentication</h1>
+<blockquote>
+<p>You should avoid using basic authentication and use any other standard authentication methodologies i.e. OAuth, JWT, etc.</p>
+</blockquote>
+<p>Basic authentication is a simple method for authenticating a user by transmitting the user’s credentials in plain text over the network. This method is inherently insecure and should be avoided whenever possible.</p>
+<p>There are several reasons why basic authentication should be avoided and replaced with more secure authentication techniques:</p>
+<ul>
+<li>
+<p>Lack of confidentiality: Basic authentication transmits the user’s credentials (username and password) in plain text over the network. This means that anyone who intercepts the traffic can easily read the credentials and gain access to the user’s account.</p>
+</li>
+<li>
+<p>Lack of integrity: Basic authentication does not provide any mechanism to ensure that the data being transmitted has not been tampered with or modified in transit. This means that an attacker can modify the traffic to gain access to the user’s account or perform other malicious activities.</p>
+</li>
+<li>
+<p>Lack of authentication strength: Basic authentication relies solely on the user’s credentials to authenticate them. This means that if an attacker is able to obtain the user’s credentials (for example, through phishing or social engineering), they can easily gain access to the user’s account.</p>
+</li>
+<li>
+<p>No support for multi-factor authentication: Basic authentication does not support multi-factor authentication (MFA), which is a critical security feature that provides an additional layer of protection against unauthorized access.</p>
+</li>
+</ul>
+<p>In contrast, other authentication techniques such as OAuth, OpenID Connect, and SAML provide more secure and robust methods for authentication. These methods typically use encrypted protocols to protect the user’s credentials, provide mechanisms for verifying the integrity of the data, and support MFA. As a result, they are much more secure and reliable than basic authentication and should be used whenever possible.</p>
       </main>
     </div>
   </div>
