@@ -3,9 +3,9 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/dfc2d39427eea6a100b5bc0bc2fd02bb55bb0087 name=commit>
-    <title>Oauth validate scope - roadmap.sh</title>
-    <meta content="Free resources to learn Oauth validate scope in API Security. Everything you need to know about Oauth validate scope and how it realtes to API Security." name=description>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/6303e31c0e534d63d46807ccf5e50d95f5b86ed6 name=commit>
+    <title>Validate Scope - roadmap.sh</title>
+    <meta content="Free resources to learn Validate Scope in API Security. Everything you need to know about Validate Scope and how it realtes to API Security." name=description>
     <meta content="Kamran Ahmed" name=author>
     <meta content="roadmap, developer roadmaps, developer roadmap, how to become a developer, frontend developer roadmap, frontend developer roadmap 2023, backend developer roadmap, backend developer roadmap 2023, sre roadmap, sre roadmap 2023, devops roadmap, devops roadmap 2023, android developer roadmap, android developer roadmap 2023, dba roadmap, dba roadmap 2023, blockchain developer roadmap, blockchain developer roadmap 2023, qa roadmap, qa roadmap 2023, qa engineer roadmap, qa engineer roadmap 2023, software architect roadmap, software architect roadmap 2023, asp.net core developer roadmap, asp.net core developer roadmap 2023, react developer roadmap, react developer roadmap 2023, angular developer roadmap, angular developer roadmap 2023, vue developer roadmap, vue developer roadmap 2023, node.js developer roadmap, node.js developer roadmap 2023, javascript developer roadmap, javascript developer roadmap 2023, python developer roadmap, python developer roadmap 2023, go developer roadmap, go developer roadmap 2023, java developer roadmap, java developer roadmap 2023, design system roadmap, design system roadmap 2023, software design roadmap, software design roadmap 2023, graphql roadmap, graphql roadmap 2023" name=keywords>
     
@@ -21,8 +21,8 @@
     <meta content=https://roadmap.sh/images/og-img.png property=og:image>
     <meta content=roadmap.sh property=og:image:alt>
     <meta content=roadmap.sh property=og:site_name>
-    <meta content="Oauth validate scope - roadmap.sh" property=og:title>
-    <meta content="Free resources to learn Oauth validate scope in API Security. Everything you need to know about Oauth validate scope and how it realtes to API Security." property=og:description>
+    <meta content="Validate Scope - roadmap.sh" property=og:title>
+    <meta content="Free resources to learn Validate Scope in API Security. Everything you need to know about Validate Scope and how it realtes to API Security." property=og:description>
     <meta content=website property=og:type>
     <meta content=https://roadmap.sh/best-practices/api-security/oauth-validate-scope property=og:url>
 
@@ -127,7 +127,15 @@
     <div class=bg-gray-50>
     <div class="container prose prose-h1:mb-4 prose-h2:mb-3 prose-h2:mt-0 prose-p:mt-0 py-16">
       <main id=main-content>
-        <h1 id=oauth-validate-scope>Oauth validate scope</h1>
+        <h1 id=validate-scope>Validate Scope</h1>
+<blockquote>
+<p>Have default scope, and validate scope for each application</p>
+</blockquote>
+<p>In OAuth, scopes are used to specify the permissions and access levels that are granted to client applications when accessing protected resources on behalf of a user.</p>
+<p>The best practice of having a default scope and validating the scope for each application is important because it helps to ensure that client applications only have access to the resources that they require, and that users are only granting the necessary permissions to each application.</p>
+<p>The default scope is a set of permissions that are granted to all client applications by default, unless otherwise specified by the user. By having a default scope, you can ensure that all applications are subject to the same baseline security and access controls.</p>
+<p>In addition to having a default scope, it is also recommended to validate the scope for each application. This means that when a user grants access to an application, the server should check to ensure that the requested scope is valid and appropriate for that application. This can help to prevent malicious applications from requesting excessive permissions or unauthorized access to user data.</p>
+<p>By having a default scope and validating the scope for each application, you can help to ensure that the OAuth flow is secure and that client applications are only accessing the resources and permissions that they require.</p>
       </main>
     </div>
   </div>

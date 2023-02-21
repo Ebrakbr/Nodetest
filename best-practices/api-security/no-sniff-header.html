@@ -3,9 +3,9 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/dfc2d39427eea6a100b5bc0bc2fd02bb55bb0087 name=commit>
-    <title>No sniff header - roadmap.sh</title>
-    <meta content="Free resources to learn No sniff header in API Security. Everything you need to know about No sniff header and how it realtes to API Security." name=description>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/6303e31c0e534d63d46807ccf5e50d95f5b86ed6 name=commit>
+    <title>X-Content-Type-Options: nosniff - roadmap.sh</title>
+    <meta content="Free resources to learn X-Content-Type-Options: nosniff in API Security. Everything you need to know about X-Content-Type-Options: nosniff and how it realtes to API Security." name=description>
     <meta content="Kamran Ahmed" name=author>
     <meta content="roadmap, developer roadmaps, developer roadmap, how to become a developer, frontend developer roadmap, frontend developer roadmap 2023, backend developer roadmap, backend developer roadmap 2023, sre roadmap, sre roadmap 2023, devops roadmap, devops roadmap 2023, android developer roadmap, android developer roadmap 2023, dba roadmap, dba roadmap 2023, blockchain developer roadmap, blockchain developer roadmap 2023, qa roadmap, qa roadmap 2023, qa engineer roadmap, qa engineer roadmap 2023, software architect roadmap, software architect roadmap 2023, asp.net core developer roadmap, asp.net core developer roadmap 2023, react developer roadmap, react developer roadmap 2023, angular developer roadmap, angular developer roadmap 2023, vue developer roadmap, vue developer roadmap 2023, node.js developer roadmap, node.js developer roadmap 2023, javascript developer roadmap, javascript developer roadmap 2023, python developer roadmap, python developer roadmap 2023, go developer roadmap, go developer roadmap 2023, java developer roadmap, java developer roadmap 2023, design system roadmap, design system roadmap 2023, software design roadmap, software design roadmap 2023, graphql roadmap, graphql roadmap 2023" name=keywords>
     
@@ -21,8 +21,8 @@
     <meta content=https://roadmap.sh/images/og-img.png property=og:image>
     <meta content=roadmap.sh property=og:image:alt>
     <meta content=roadmap.sh property=og:site_name>
-    <meta content="No sniff header - roadmap.sh" property=og:title>
-    <meta content="Free resources to learn No sniff header in API Security. Everything you need to know about No sniff header and how it realtes to API Security." property=og:description>
+    <meta content="X-Content-Type-Options: nosniff - roadmap.sh" property=og:title>
+    <meta content="Free resources to learn X-Content-Type-Options: nosniff in API Security. Everything you need to know about X-Content-Type-Options: nosniff and how it realtes to API Security." property=og:description>
     <meta content=website property=og:type>
     <meta content=https://roadmap.sh/best-practices/api-security/no-sniff-header property=og:url>
 
@@ -127,7 +127,12 @@
     <div class=bg-gray-50>
     <div class="container prose prose-h1:mb-4 prose-h2:mb-3 prose-h2:mt-0 prose-p:mt-0 py-16">
       <main id=main-content>
-        <h1 id=no-sniff-header>No sniff header</h1>
+        <h1 id=x-content-type-options-nosniff>X-Content-Type-Options: nosniff</h1>
+<blockquote>
+<p>Send <code>X-Content-Type-Options: nosniff</code> header.</p>
+</blockquote>
+<p>You should send the <code>X-Content-Type-Options: nosniff</code> header to prevent <a href=https://www.keycdn.com/support/what-is-mime-sniffing target=_blank rel=nofollow>MIME type sniffing attacks</a> on your web application. This header tells the browser not to override the response content type even if it’s not the expected type. For example, if an attacker manages to upload an HTML file with a disguised extension like .jpg, the server may still send the correct content type header for the HTML file. However, some browsers may ignore this header and try to “sniff” the content type based on the actual contents of the file, leading to a potential cross-site scripting (XSS) attack.</p>
+<p>By sending the <code>X-Content-Type-Options: nosniff</code> header, you tell the browser to always trust the provided content type and not try to sniff the content type. This helps to mitigate the risk of attackers exploiting content type mismatches to deliver malicious content to unsuspecting users.</p>
       </main>
     </div>
   </div>

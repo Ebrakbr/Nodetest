@@ -3,9 +3,9 @@
   <head>
     <meta charset=UTF-8>
     <meta content="Astro v2.0.8" name=generator>
-    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/dfc2d39427eea6a100b5bc0bc2fd02bb55bb0087 name=commit>
-    <title>Proper response code - roadmap.sh</title>
-    <meta content="Free resources to learn Proper response code in API Security. Everything you need to know about Proper response code and how it realtes to API Security." name=description>
+    <meta content=https://github.com/kamranahmedse/developer-roadmap/commit/6303e31c0e534d63d46807ccf5e50d95f5b86ed6 name=commit>
+    <title>Proper Response Code - roadmap.sh</title>
+    <meta content="Free resources to learn Proper Response Code in API Security. Everything you need to know about Proper Response Code and how it realtes to API Security." name=description>
     <meta content="Kamran Ahmed" name=author>
     <meta content="roadmap, developer roadmaps, developer roadmap, how to become a developer, frontend developer roadmap, frontend developer roadmap 2023, backend developer roadmap, backend developer roadmap 2023, sre roadmap, sre roadmap 2023, devops roadmap, devops roadmap 2023, android developer roadmap, android developer roadmap 2023, dba roadmap, dba roadmap 2023, blockchain developer roadmap, blockchain developer roadmap 2023, qa roadmap, qa roadmap 2023, qa engineer roadmap, qa engineer roadmap 2023, software architect roadmap, software architect roadmap 2023, asp.net core developer roadmap, asp.net core developer roadmap 2023, react developer roadmap, react developer roadmap 2023, angular developer roadmap, angular developer roadmap 2023, vue developer roadmap, vue developer roadmap 2023, node.js developer roadmap, node.js developer roadmap 2023, javascript developer roadmap, javascript developer roadmap 2023, python developer roadmap, python developer roadmap 2023, go developer roadmap, go developer roadmap 2023, java developer roadmap, java developer roadmap 2023, design system roadmap, design system roadmap 2023, software design roadmap, software design roadmap 2023, graphql roadmap, graphql roadmap 2023" name=keywords>
     
@@ -21,8 +21,8 @@
     <meta content=https://roadmap.sh/images/og-img.png property=og:image>
     <meta content=roadmap.sh property=og:image:alt>
     <meta content=roadmap.sh property=og:site_name>
-    <meta content="Proper response code - roadmap.sh" property=og:title>
-    <meta content="Free resources to learn Proper response code in API Security. Everything you need to know about Proper response code and how it realtes to API Security." property=og:description>
+    <meta content="Proper Response Code - roadmap.sh" property=og:title>
+    <meta content="Free resources to learn Proper Response Code in API Security. Everything you need to know about Proper Response Code and how it realtes to API Security." property=og:description>
     <meta content=website property=og:type>
     <meta content=https://roadmap.sh/best-practices/api-security/proper-response-code property=og:url>
 
@@ -127,7 +127,18 @@
     <div class=bg-gray-50>
     <div class="container prose prose-h1:mb-4 prose-h2:mb-3 prose-h2:mt-0 prose-p:mt-0 py-16">
       <main id=main-content>
-        <h1 id=proper-response-code>Proper response code</h1>
+        <h1 id=proper-response-code>Proper Response Code</h1>
+<blockquote>
+<p>Return the proper status code according to the operation completed. e.g.</p>
+<ul>
+<li><code>200 OK</code></li>
+<li><code>400 Bad Request</code></li>
+<li><code>401 Unauthorized</code></li>
+<li><code>405 Method Not Allowed</code></li>
+<li>…etc.</li>
+</ul>
+</blockquote>
+<p>Returning the proper status code according to the operation completed is important for API security because it allows the client to understand the outcome of their request and take appropriate actions. For example, if the server returns a 401 Unauthorized status code, the client knows that their authentication credentials are incorrect and can prompt the user to re-enter their login details. On the other hand, if the server returns a 200 OK status code even though the request failed, the client may not realize there was an issue and could potentially execute malicious actions or display incorrect data. Providing accurate status codes can help prevent security vulnerabilities and improve the overall reliability and usability of the API.</p>
       </main>
     </div>
   </div>
